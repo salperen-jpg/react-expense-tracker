@@ -26,7 +26,7 @@ const NewExpense = (props) => {
       {" "}
       {!isEditing && (
         <div className="button-right">
-          <button class="on-click" onClick={formChangeHandler}>
+          <button className="on-click" onClick={formChangeHandler}>
             Add Expense{" "}
           </button>{" "}
         </div>
